@@ -295,7 +295,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8039571a94a5f047b7113f4db7e3055, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementVector: {x: 0, y: 0, z: 0}
+  movementVector: {x: 0.1, y: 0, z: 0}
+  roteVector: {x: 0, y: 0, z: 0}
+  scaleVector: {x: 0, y: 0, z: 0}
+  xSpeed: 0
 --- !u!65 &2087915537
 BoxCollider:
   m_ObjectHideFlags: 0
